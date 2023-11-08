@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Popup Window</title>
+    <style>
+        /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* width */
+::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #121212; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+    </style>
+</head>
+<body>
+    <h1>Ma Page HTML</h1>
+    <script>
+        var url = "https://neal.fun/ambient-chaos/";  // Remplacez par l'URL souhaitée
+        var options = "width=800, height=600";
+        var popupWindow = window.open(url, "_blank", options);
+
+        // Fermez cette page HTML après avoir ouvert le pop-up
+        window.close();
+    </script>
+</body>
+</html>
